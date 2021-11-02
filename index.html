@@ -1,0 +1,50 @@
+<div id="dogfeedcalculator">
+  <form id="dogForm" autoComplete="true" onSubmit="return validate()">
+    <fieldset class="tab">
+      <div class="dogname-inputs">
+      <p>What is your dogs name?</p>
+      <input name="dogname" type="text" placeholder="Fido"></input>
+      </div>
+      <input type="button" name="next" class="next-form" value="Next" />
+      <input id="newDog" type="button" name="newDog" class="newDog" value="Add A Dog"/>
+    </fieldset>
+    <fieldset class="tab hidden-tab">
+      <div class="dogage">
+      <p>And what year was your dog born?</p>
+      <input id="dogage" type="text" name="dogage" placeholder="1992"/>
+      </div>
+      <input type="button" name="next" class="next-form" value="Next"/>
+      <input type="button" name="previous" class="previous-form" value="previous"/>
+    </fieldset>
+    <fieldset class="tab hidden-tab">
+      <div class="dogweight">
+      <p>And how much does your dog weight to the nearest KG?</p>
+      <input id="dogweight" type="text" name="dogweight" placeholder="4"/>
+      </div>
+      <input type="button" name="next" class="next-form" value="Next"/>
+      <input type="button" name="previous" class="previous-form" value="previous"/>
+    </fieldset>
+      <fieldset class="tab hidden-tab">
+      <div class="mealplan">
+      <p>Please select what food you'd like for your dogs.</p>
+      <select id="mealplanSelected" name="mealplanSelected">
+      	<option disabled selected>--Please choose a Furfresh product mix--</option>
+        <option value="mp1">Raw + Cook Food - 1hr Exercise/day</option>
+        <option value="mp2">Raw + Cook Food - 2hr+ Exercise/day</option>
+        <option value="mp3">Freeze Dried</option>
+        <option value="mp4">1/2 Fresh food + 1/2 Freeze Dried </option>
+      </select>
+      </div>
+      <input type="button" name="next" class="next-form" value="Next"/>
+      <input type="button" name="previous" class="previous-form" value="previous"/>
+    </fieldset>
+    <fieldset class="tab hidden-tab">
+      <div class="calculator">
+      <p>Click calculate to get your recommended feed schedule.</p>
+      <button class="mealCalculator" name="mealCalc" type="submit">Calculate</button>
+      </div>
+      <input type="button" name="next" class="next-form" value="Next"/>
+      <input type="button" name="previous" class="previous-form" value="previous"/>
+    </fieldset>
+  </form>
+</div>
