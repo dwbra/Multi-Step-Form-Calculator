@@ -1,0 +1,46 @@
+.hidden-tab {
+    display: none;
+}
+
+#dogfeedcalculator input[type="text"],
+#dogfeedcalculator select[name="mealplanSelected"],
+#dogfeedcalculator select[name="mealplanSelected1"],
+#dogfeedcalculator select[name="mealplanSelected2"],
+#dogfeedcalculator select[name="mealplanSelected3"] {
+	height: 40px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+#dogfeedcalculator input[type="button"],
+button.mealCalculator {
+	color: #FFFFFF!important;
+    border-width: 2px!important;
+    border-color: RGBA(0,0,0,0);
+    border-radius: 0px;
+    font-size: 16px;
+    font-weight: 600!important;
+    background-color: #45c7e8;
+	padding: 12px 16px !important;
+}
+
+button.mealCalculator {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.next-form {
+	margin-right: 10px;
+}
+
+.uxcalc-result {
+	margin-bottom: 20px;
+}
+
+span.price_time_opt {
+	color: black;
+}
+
+span.removelink {
+    color: red;
+}
